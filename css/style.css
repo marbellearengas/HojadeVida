@@ -1,8 +1,7 @@
-
 * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -32,7 +31,7 @@ nav {
     height: 80px;
     background: #fff;
     border-bottom: 1px solid transparent;
-    box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -84,8 +83,8 @@ nav {
 /* ##################### HEADER ########## ####### */
 
 .titulospro {
-   text-align: left;
-   margin: 20px 0;
+    text-align: left;
+    margin: 20px 0;
 }
 
 .contenido-header {
@@ -106,12 +105,13 @@ nav {
 }
 
 @keyframes animacion {
-0% {
-    transform: scale(0);
-}
-100% {
-    transform: scale(1);
-}
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .textos-header {
@@ -171,7 +171,7 @@ nav {
 }
 
 .articulo:hover {
-    box-shadow:0 4px 10px rgba(17, 29, 48, .26);
+    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
     color: #fff;
     background: #d03d3d;
     transition: .5s;
@@ -183,7 +183,7 @@ nav {
     text-transform: uppercase;
 }
 
-.articulo > i {
+.articulo>i {
     color: #d03d3d;
     font-size: 30px;
     border-radius: 50%;
@@ -195,28 +195,29 @@ nav {
     line-height: 48px;
 }
 
-.articulo > a {
+.articulo>a {
     text-decoration: none;
     color: black;
 }
 
-.articulo > a:hover {
+.articulo>a:hover {
     color: #fff;
     transition: .5s;
 }
 
-.articulo > i:hover {
+.articulo>i:hover {
     color: #fff;
     transition: .5s;
 }
 
 /* ################################## SKILLS ################################## */
 .content-skills {
-    display: flex; 
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
     margin-top: 50px;
-    justify-content: space-evenly; 
+    justify-content: space-evenly;
 }
+
 .skills {
     width: 32%;
     margin-bottom: 70px;
@@ -229,7 +230,7 @@ nav {
 
 .skills h2 {
     margin-bottom: 20px;
-    color: black;     
+    color: black;
 }
 
 .skills img {
@@ -292,7 +293,7 @@ nav {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
     color: #fff;
     background: #d03d3d;
-    transition: .5s;    
+    transition: .5s;
 }
 
 .certificate a {
@@ -342,9 +343,9 @@ footer {
     background: rgb(70, 70, 70);
     padding: 20px 0;
     padding-top: 30px;
-    overflow: hidden; 
-    display: flex; 
-    flex-wrap: wrap; 
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
 }
@@ -375,7 +376,7 @@ footer {
     text-align: left;
 }
 
-.contact > i {
+.contact>i {
     float: left;
     margin: 0 0 0 10px;
     color: #fff;
@@ -388,7 +389,7 @@ footer {
     align-items: center;
 }
 
-.contact > p {
+.contact>p {
     margin-left: 50px;
     align-items: center;
     line-height: 28px;
@@ -396,7 +397,7 @@ footer {
     color: #fff;
 }
 
-.partFooter > a {
+.partFooter>a {
     display: block;
     text-decoration: none;
     color: #fff;
@@ -405,7 +406,7 @@ footer {
     padding: 5px;
 }
 
-.partFooter > a:hover {
+.partFooter>a:hover {
     color: #fff;
     background-color: #cf6c6c;
     border-color: #cf6c6c;
@@ -413,15 +414,15 @@ footer {
     border-radius: 5px;
 }
 
-.social-media > a > i {
+.social-media>a>i {
     font-size: 20px;
-    display: inline-block; 
+    display: inline-block;
     color: #fff;
     border: 2px solid #fff;
-    border-radius: 50%; 
-    width: 38px; 
-    height: 38px; 
-    line-height: 36px; 
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
     cursor: pointer;
     margin-top: 20px;
     text-align: center;
@@ -429,7 +430,7 @@ footer {
     margin-right: 5px;
 }
 
-.social-media > a > i:hover {
+.social-media>a>i:hover {
     color: #fff;
     background-color: #d03d3d;
     border-color: #d03d3d;
@@ -444,8 +445,9 @@ footer {
     }
 
 }
+
 @media screen and (max-width:1000px) {
-   
+
     h1 {
         font-size: 35px;
     }
@@ -457,10 +459,10 @@ footer {
     }
 
     .contenido-header>img {
-        width: 150px; 
+        width: 150px;
         height: 150px;
-        animation: ease-in animacion 0.5s; 
-    } 
+        animation: ease-in animacion 0.5s;
+    }
 
     .nav .enlaces-header a {
         margin: 0;
@@ -514,7 +516,9 @@ footer {
 
 @media screen and (max-width:800px) {
 
-    .articulo, .experience, .certificate {
+    .articulo,
+    .experience,
+    .certificate {
         width: 45%;
     }
 
@@ -525,7 +529,8 @@ footer {
     .content-infopersonal {
         flex-direction: column;
         margin-top: 0;
-        margin-bottom: 20px;;
+        margin-bottom: 20px;
+        ;
     }
 
     .space-infoperson {
@@ -552,7 +557,7 @@ footer {
 
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
     h1 {
         font-size: 25px;
     }
@@ -563,13 +568,16 @@ footer {
     }
 
     .contenido-header>img {
-        width: 120px; 
+        width: 120px;
         height: 120px;
-        animation: ease-in animacion 0.5s; 
+        animation: ease-in animacion 0.5s;
         margin: 20px 0;
-    }  
-    
-    .articulo, .experience, .certificate, .skills {
+    }
+
+    .articulo,
+    .experience,
+    .certificate,
+    .skills {
         width: 90%;
     }
 
@@ -577,7 +585,9 @@ footer {
         margin-bottom: 20px;
     }
 
-    .articulo, .experience, .content-skills {
+    .articulo,
+    .experience,
+    .content-skills {
         margin-top: 20px;
     }
 
@@ -592,7 +602,7 @@ footer {
 
     .certificate {
         margin: 10px;
-        padding: 10px;        
+        padding: 10px;
     }
 
     .content-infopersonal {
@@ -639,7 +649,8 @@ footer {
         top: 0;
         right: 0;
         width: 100%;
-        height: 100vh; /*100 view*head*/
+        height: 100vh;
+        /*100 view*head*/
         display: flex;
         align-items: center;
         flex-direction: column;
